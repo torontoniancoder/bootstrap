@@ -99,6 +99,7 @@
     "@rollup/plugin-commonjs": "^15.0.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
     "autoprefixer": "^9.8.6",
+    "brotli-size": "^4.0.0",
     "bundlewatch": "^0.2.7",
     "clean-css-cli": "^4.3.0",
     "cross-env": "^7.0.2",
