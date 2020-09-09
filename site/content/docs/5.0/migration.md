@@ -42,6 +42,7 @@ Breakpoints specific variants are consequently renamed too (eg. `.text-md-start`
 <details>
 <summary class="font-weight-bold">Variables & misc</summary>
 
+- New `$breadcrumb-divider-flipped` if a different breadcrumb separator is needed in RTL,
 - Renamed `$navbar-brand-margin-right` to `$navbar-brand-margin-end`,
 - Renamed `$pagination-margin-left` to `$pagination-margin-start`,
 - Renamed `$form-check-padding-left` to `$form-check-padding-start`,
