@@ -284,6 +284,8 @@ kbd,
 samp {
   font-family: $font-family-code;
   @include font-size(1em); // Correct the odd `em` font sizing in all browsers.
+  direction: ltr #{"/* rtl:ignore */"};
+  unicode-bidi: bidi-override;
 }
 
 // 1. Remove browser default top margin
@@ -312,6 +314,8 @@ pre {
 code {
   @include font-size($code-font-size);
   color: $code-color;
+
+  /* rtl:remove */
   word-wrap: break-word;
 
   // Streamline the style when inside anchors to avoid broken underline and more
